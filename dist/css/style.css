@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.container {
+  background: #ffffff;
+  box-shadow: 0 8px 36px rgb(67 67 67 / 6%);
+  border-radius: 15px;
+  height: 80vh;
+  margin-top: 10vh;
+}
+
+.logo {
+  position: absolute;
+}
+
+.app-info {
+  background: url(../img/body-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.app-info-details {
+  color: #000000;
+}
+
+.app-info-details h3 {
+  font-weight: 600;
+}
+
+.app-form {
+  max-width: 500px;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.app-form h2 {
+  font-weight: 700;
+  color: #000000;
+}
+
+.app-form small {
+  color: #bebebe;
+}
+
+.app-btn {
+  text-decoration: none;
+  /* background: transparent; */
+  border: 1px #bebebe solid;
+  color: #000000;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 12px 20px;
+  display: inline-block;
+  min-width: 150px;
+  border-radius: 24px;
+  margin-top: 30px;
+  letter-spacing: 0.4px;
+  transition: all ease 0.4s;
+}
+
+.app-btn:hover {
+  box-shadow: 0 8px 36px rgb(67 67 67 / 20%);
+  background-color: #000000;
+  color: #ffffff;
+  border: 1px solid #000000;
+}
+
+.app-btn-fill {
+  color: #ffffff;
+  background: #000000;
+  border: 1px solid #000000;
+}
+
+.app-btn-fill:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.form-group input {
+  width: 100%;
+}
+
+.input-group {
+  flex-wrap: nowrap;
+}
+
+form.form-group {
+  margin-top: 30px;
+}
+
+form.form-group input {
+  padding: 12px;
+  border: 1px solid #ced4da;
+  font-size: 14px;
+  outline: none;
+  border-radius: 10px;
+}
+
+.form-control:focus {
+  outline: none;
+  background: #ffffff;
+}
+
+.error {
+  color: #e4002b;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.user-info {
+  padding: 30px;
+  background-color: #fafafa;
+}
+
+.user-info .h-100 {
+  align-items: flex-end;
+}
+
+.todo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-height: 60vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.todo-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: #fafafa;
+  margin: 5px;
+  padding: 12px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.todo-box button {
+  color: red;
+  border: hidden;
+  outline: none;
+  cursor: pointer;
+  background: transparent;
+}
